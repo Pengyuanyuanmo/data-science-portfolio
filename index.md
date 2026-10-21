@@ -14,9 +14,18 @@ Python · pandas · NumPy · Matplotlib · Seaborn · scikit-learn · explorator
 ## House Price Analysis in King County, USA
 **Research question:** How are house characteristics associated with sale prices, and how well can regression models predict those prices?
 
-**Status:** Coursework completed; portfolio documentation and publication in progress.
+**Status:** Completed coursework; portfolio published and updated after feedback.
 
 The project analyzes 21,613 house sale records from May 2014 to May 2015. It combines data cleaning, visual exploration and linear, polynomial and Ridge regression.
+
+<aside style="border-left:4px solid #26749b;background:#eef6fa;padding:16px 20px;margin:24px 0;" aria-label="Key Takeaways">
+<h3 style="margin-top:0;">Key Takeaways</h3>
+<ul>
+<li><strong>Strongest finding:</strong> Above-ground living area is positively associated with house price (Pearson r ≈ 0.606).</li>
+<li><strong>Best test result:</strong> Of the two models evaluated on the same test set, polynomial Ridge achieved the higher R², approximately 0.700. This describes explained variation, not prediction accuracy.</li>
+<li><strong>Main limitation:</strong> Missing values were imputed before the train/test split, allowing test-set information into preprocessing.</li>
+</ul>
+</aside>
 
 ![Price versus above-ground area](area_vs_price.png)
 
@@ -34,4 +43,4 @@ The completed assignment reports test R² of approximately 0.648 for Ridge regre
 
 [View the original project and notebook](https://github.com/Pengyuanyuanmo/CISC7204-MC663623-2026GitHub/tree/main/Module06)
 
-The project is based on an IBM Skills Network course notebook. AI assistance helped prepare this portfolio adaptation. Feedback from a classmate and the resulting improvement are pending.
+The project is based on an IBM Skills Network course notebook. AI assistance helped prepare this portfolio adaptation. Feedback received: add a short Key Takeaways box so readers can identify the strongest finding, best model result and main limitation at a glance. The box above implements this suggestion.
